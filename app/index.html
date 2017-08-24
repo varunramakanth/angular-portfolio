@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="myPortfolioApp" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <link rel="stylesheet" href="styles/app_styles.css">
+</head>
+<body>
+
+<ui-view></ui-view>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/angular-ui-select3/src/select3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/misc/scope_extend.js"></script>
+<script src="scripts/config/routing.js"></script>
+<script src="scripts/misc/ajax.js"></script>
+<script src="scripts/misc/backend.js"></script>
+<script src="scripts/service/accountOverviewService.js"></script>
+<script src="scripts/controllers/accountOverviewController.js"></script>
+<script src="directives/accountOverview/accountBalance/accountBalanceController.js"></script>
+<script src="directives/accountOverview/accountBalance/accountBalanceDirective.js"></script>
+<script src="directives/accountOverview/accountBalance/accountBalanceService.js"></script>
+<script src="directives/accountOverview/subscribers/getSubscribersDirective.js"></script>
+<script src="directives/accountOverview/subscribers/getSubscribersService.js"></script>
+<script src="scripts/service/wirelessDashboardService.js"></script>
+<script src="scripts/controllers/wirelessDashboardController.js"></script>
+<script src="scripts/service/internetDashboardService.js"></script>
+<script src="scripts/controllers/internetDashboardController.js"></script>
+<script src="directives/misc/donutChart.js"></script>
+</body>
+</html>

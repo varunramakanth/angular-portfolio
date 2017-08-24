@@ -1,0 +1,25 @@
+<div class="container">
+<div class="row">
+    <div>SUBSCRIBERS</div>
+   <div ng-click="vm.gotoService(sub.ctn,vm.accountNumber,sub.subType)" class="col-xs-12 col-sm-12 col-md-6 col-lg-3 subDiv" ng-repeat="sub in vm.subscribers">
+    <div ng-show="sub.subType == 'w'">
+        <div class="col-xs-2 phoneImg zeroLeftPadding">
+            <img src="images/phone.png">
+        </div>
+        <div class="col-xs-7">
+            <span class="col-xs-12 zeroLeftPadding" ng-bind="sub.subname"></span>
+            <span class="col-xs-12 zeroLeftPadding" ng-bind="sub.ctn"></span>
+        </div>
+    </div>
+    <div ng-show="sub.subType == 'r'">
+        <div class="col-xs-2 phoneImg zeroLeftPadding">
+           <img src="images/wireless.png">
+        </div>
+        <div class="col-xs-7">
+            <span class="col-xs-12 zeroLeftPadding" ng-bind="sub.subname"></span>
+            <span class="col-xs-12 zeroLeftPadding" ng-bind="sub.ctn"></span>
+        </div>
+   </div>
+   </div>
+</div>
+</div>

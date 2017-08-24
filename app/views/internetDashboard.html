@@ -1,0 +1,63 @@
+<section>
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 retail mtop-51">
+    <div class="container"><div class="rui-heading">
+        <h1><span>INTERNET</span></h1>
+    </div>
+    </div>
+</div>
+    <div class="container">
+        <h3>USAGE/MODEM DETAILS</h3>
+    </div>
+
+    <div class="container horizontal rounded">
+
+        <div class="col-xs-3">
+            <div class="fontWeightBold marginBottom20">
+                Daily Usage
+            </div>
+            <div>
+                <span class="fontWeightBold">FUP</span><span>:</span><span>{{vm.internetDashboardData.monthlyFUP}}</span>
+            </div>
+            <div>
+                <span class="fontWeightBold">Usage Today</span><span>:</span><span>{{vm.internetDashboardData.dailyUsage}}</span>
+            </div>
+            <div>
+                <span class="fontWeightBold">Total Remaining</span><span>:</span><span>{{vm.internetDashboardData.remaining}}</span>
+            </div>
+        </div>
+
+        <div class="col-xs-5">
+            <div class="fontWeightBold marginBottom20">
+                Monthly Usage
+            </div>
+<div id="chartContainer1" style="height: 300px; width: 100%;">
+</div>
+        </div>
+
+        <div class="col-xs-4">
+            <div class="fontWeightBold marginBottom20">
+               MODEM
+            </div>
+            <div>
+                <span>{{vm.internetDashboardData.modemDetails.modemName}}</span>
+            </div>
+            <div>
+                <img class="deviceImg" ng-src="{{vm.internetDashboardData.modemDetails.modemImgPath}}">
+            </div>
+        </div>
+    </div>
+
+    <div class="container marginTop45px">
+        <h3>PLAN</h3>
+    </div>
+    <div class="container">
+        <div class="col-xs-12 plantitle zeroLeftPadding">{{vm.internetDashboardData.plan.planName}}</div>
+        <div class="col-xs-12 planpricetitle zeroLeftPadding">{{vm.internetDashboardData.plan.planPrice}}</div>
+        <ul class="col-xs-12" >
+            <li ng-repeat="feature in vm.internetDashboardData.plan.features">{{feature}}</li>
+        </ul>
+    </div>
+
+
+</section>

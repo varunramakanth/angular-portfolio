@@ -1,0 +1,27 @@
+{
+  "talkUsage":{
+    "available":"1000",
+    "used":"400"
+  },
+  "dataUsage":{
+    "available":"2.5",
+    "used":"1.3"
+  },
+  "textUsage":{
+    "available":"500",
+    "used":"300"
+  },
+  "plan":{
+    "planName":"Provincial pulse plan",
+    "planPrice": "$45/month",
+    "features":[
+      "Unlimited voice mail",
+      "$5/day for U.S Roaming",
+      "$5 per extra GB of data"
+    ]
+  },
+  "device"  :{
+    "deviceName":"Iphone 7 plus",
+    "deviceImgPath":"/images/IPS7BL.png"
+  }
+}

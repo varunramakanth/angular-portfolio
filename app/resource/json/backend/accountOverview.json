@@ -1,0 +1,31 @@
+{
+  "accountList": [{
+    "accountName": {"firstName": "CHIEN-CHAN123", "lastName": "LU", "middleName": ""},
+    "accountNumber": "504583998",
+    "accountTypeNumber": 1,
+    "accountType": "Consumer",
+    "accountSubType": "Regular",
+    "accountStatus": "Active",
+    "nickname": "Rosebush",
+    "linkDate": "Feb 19, 2016 3:54:28 PM",
+    "subscribers":{
+
+    },
+    "subNumbers": ["9058139462", "4164143496", "4168030754", "6472827663", "4167216516", "4168254361", "233551601604"],
+    "isWlsSubTypeExists": true,
+    "isCreditCardHolder": false
+  },
+    {
+      "accountName": {"firstName": "CHIEN-CHAN123", "lastName": "LU", "middleName": ""},
+      "accountNumber": "504583999",
+      "accountTypeNumber": 1,
+      "accountType": "Consumer",
+      "accountSubType": "Regular",
+      "accountStatus": "Active",
+      "nickname": "Rosebush",
+      "linkDate": "Feb 19, 2016 3:54:28 PM",
+      "subNumbers": ["9058139462", "4164143496", "4168030754", "6472827663", "4167216516", "4168254361", "233551601604"],
+      "isWlsSubTypeExists": true,
+      "isCreditCardHolder": false
+    }]
+}

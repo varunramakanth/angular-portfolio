@@ -1,0 +1,24 @@
+{
+"monthlyFUP":"600GB",
+"dailyUsage":"35GB",
+"remaining":"268GB",
+"monthlyUsage":{
+  "2012, 05":"450",
+  "2012, 06":"327",
+  "2012, 07":"410",
+  "2012, 08":"332"
+},
+ "modemDetails":{
+   "modemName":"NetGear Ultra",
+   "modemImgPath":"/images/netgear_ultra.png"
+ },
+  "plan":{
+    "planName":"ULtra Pulse plan",
+    "planPrice": "$63/month",
+    "features":[
+      "Unlimited mail storage space from google",
+      "1gb of free storage in Dropbox",
+      "On Demand TV shows"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subscribers":[
+    {
+      "subname":"Clemenza",
+      "subType":"w",
+      "ctn": 6479897846
+    },
+    {
+      "subname":"Tom",
+      "subType":"w",
+      "ctn": 6477878777
+    },
+    {
+      "subname":"Barzini",
+      "subType":"w",
+      "ctn": 2134566666
+    }
+  ]
+}

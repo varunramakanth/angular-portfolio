@@ -1,0 +1,19 @@
+{
+  "subscribers":[
+    {
+      "subname":"Mike Coreleone",
+      "subType":"w",
+      "ctn": 4168789999
+    },
+    {
+      "subname":"Vito Corleone",
+      "subType":"w",
+      "ctn": 4168789998
+    },
+    {
+      "subname":"Tattagalia",
+      "subType":"r",
+      "ctn": 213456789234
+    }
+  ]
+}

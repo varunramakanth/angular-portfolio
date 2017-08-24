@@ -1,0 +1,94 @@
+<section>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 retail mtop-51">
+        <div class="container"><div class="rui-heading">
+            <h1><span>Wireless</span></h1>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3>USAGE DETAILS</h3>
+    </div>
+    <div class="container horizontal rounded">
+        <div class="col-xs-4 zeroLeftPadding">
+        <div class="fontWeightBold marginBottom20">
+            Data Usage
+        </div>
+        <div>
+            <span class="fontWeightBold">Used</span><span>:</span><span>{{vm.wirelessDashboardData.dataUsage.used}}</span><span>GB</span>
+        </div>
+        <div>
+            <span class="fontWeightBold">Available</span><span>:</span><span>{{vm.wirelessDashboardData.dataUsage.available}}</span><span>GB</span>
+        </div>
+        <div class="progress-bar horizontal">
+            <div class="progress-track">
+                <div class="progress-fill" ng-class="{'width': vm.wirelessDashboardData.dataUsagePercentage}">
+                    <span>{{vm.wirelessDashboardData.dataUsagePercentage}}%</span>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-xs-4 zeroLeftPadding">
+            <div class="fontWeightBold marginBottom20">
+                Talk Usage
+            </div>
+            <div>
+                <span class="fontWeightBold">Used</span><span>:</span><span>{{vm.wirelessDashboardData.talkUsage.used}}</span><span>mins</span>
+            </div>
+            <div>
+                <span class="fontWeightBold">Available</span><span>:</span><span>{{vm.wirelessDashboardData.talkUsage.available}}</span><span>mins</span>
+            </div>
+            <div class="progress-bar horizontal">
+                <div class="progress-track">
+                    <div class="progress-fill" ng-class="{'width': vm.wirelessDashboardData.talkUsagePercentage}">
+                        <span>{{vm.wirelessDashboardData.talkUsagePercentage}}%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-4 zeroLeftPadding">
+            <div class="fontWeightBold marginBottom20">
+                Text Usage
+            </div>
+            <div>
+                <span class="fontWeightBold">Used</span><span>:</span><span>{{vm.wirelessDashboardData.textUsage.used}}</span><span>messages</span>
+            </div>
+            <div>
+                <span class="fontWeightBold">Available</span><span>:</span><span>{{vm.wirelessDashboardData.textUsage.available}}</span><span>messages</span>
+            </div>
+            <div class="progress-bar horizontal">
+                <div class="progress-track">
+                    <div class="progress-fill" ng-class="{'width': vm.wirelessDashboardData.textUsagePercentage}">
+                        <span>{{vm.wirelessDashboardData.textUsagePercentage}}%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="container marginTop45px">
+        <h3>PLAN</h3>
+    </div>
+    <div class="container">
+        <div class="col-xs-12 plantitle zeroLeftPadding">{{vm.wirelessDashboardData.plan.planName}}</div>
+        <div class="col-xs-12 planpricetitle zeroLeftPadding">{{vm.wirelessDashboardData.plan.planPrice}}</div>
+        <ul class="col-xs-12" >
+            <li ng-repeat="feature in vm.wirelessDashboardData.plan.features">{{feature}}</li>
+        </ul>
+    </div>
+
+
+    <div class="container marginTop45px">
+        <h3>Device</h3>
+    </div>
+    <div class="container">
+        <div class="col-xs-12 plantitle zeroLeftPadding">{{vm.wirelessDashboardData.device.deviceName}}</div>
+       <div>
+           <img class="deviceImg" ng-src="{{vm.wirelessDashboardData.device.deviceImgPath}}">
+       </div>
+    </div>
+</section>

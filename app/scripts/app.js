@@ -1,0 +1,1 @@
+angular.module("myPortfolioApp",["ui.router","ui.select2"]);
